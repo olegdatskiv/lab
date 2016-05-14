@@ -1,0 +1,11 @@
+F1=[11,23,56,'gf','rt']
+F2=['ew','fg','iuy',25,78]
+print(F1[1])
+F2[4]=455
+print(F2)
+F3=F1+F2
+print(F3)
+F4=F3[0:2]+F3[7:]
+print(F4)
+F4=F4+['ab','ra']
+print(F4)
